@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.development.tenzu.passwordmanager" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ManageFolders"
+            android:label="@string/title_activity_first" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ManageFolders" />
+        </activity>
+        <activity
+            android:name=".ExportImport"
+            android:label="@string/title_activity_exportimport"
+            android:noHistory = "true">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ExportImport" />
+        </activity>
+        <activity
+            android:name=".ManageFiles"
+            android:label="@string/title_activity_second"
+            android:noHistory = "true"
+            android:parentActivityName=".ManageFolders" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ManageFolders" />
+        </activity>
+        <activity
+            android:name=".Authorization"
+            android:label="@string/app_name"
+            android:noHistory = "true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

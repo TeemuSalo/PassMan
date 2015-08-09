@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PassMan</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">Create Passwords</string>
+    <string name="title_activity_third">Authorization</string>
+    <string name="title_activity_first">Manage Folders</string>
+    <string name="title_activity_exportimport">Export and Import files</string>
+
+    <string name="passwordone">1</string>
+    <string name="passwordtwo">2</string>
+    <string name="passwordthree">3</string>
+    <string name="passwordfour">4</string>
+    <string name="passwordfive">5</string>
+    <string name="passwordsix">6</string>
+    <string name="passwordseven">7</string>
+    <string name="passwordeight">8</string>
+    <string name="passwordnine">9</string>
+
+    <string name="masterpassword">12345</string> <!-- hardcoded password, very bad -->
+
+</resources>

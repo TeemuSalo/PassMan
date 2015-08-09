@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333"
+    >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:background="#333"
+        android:textColor="#fff"
+        android:text="PLEASE INPUT PASSWORD"/>
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    >
+    <Button
+        android:id="@+id/B1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="80dp"
+        android:text="@string/passwordone"
+        android:textSize="30dp"
+        android:textColor="#fff"/>
+    <Button
+        android:id="@+id/B2"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="80dp"
+        android:text="@string/passwordtwo"
+        android:textSize="30dp"
+        android:textColor="#fff"/>
+    <Button
+        android:id="@+id/B3"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="80dp"
+        android:text="@string/passwordthree"
+        android:textSize="30dp"
+        android:textColor="#fff"/>
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    >
+    <Button
+        android:id="@+id/B4"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="80dp"
+        android:text="@string/passwordfour"
+        android:textSize="30dp"
+        android:textColor="#fff"/>
+    <Button
+        android:id="@+id/B5"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="80dp"
+        android:text="@string/passwordfive"
+        android:textSize="30dp"
+        android:textColor="#fff"/>
+    <Button
+        android:id="@+id/B6"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="80dp"
+        android:text="@string/passwordsix"
+        android:textSize="30dp"
+        android:textColor="#fff"/>
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    >
+    <Button
+        android:id="@+id/B7"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="80dp"
+        android:text="@string/passwordseven"
+        android:textSize="30dp"
+        android:textColor="#fff"/>
+    <Button
+        android:id="@+id/B8"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="80dp"
+        android:text="@string/passwordeight"
+        android:textSize="30dp"
+        android:textColor="#fff"/>
+    <Button
+        android:id="@+id/B9"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="80dp"
+        android:text="@string/passwordnine"
+        android:textSize="30dp"
+        android:textColor="#fff"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
